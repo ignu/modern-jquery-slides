@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.2.7)
     blankslate (2.1.2.4)
+    bluecloth (2.2.0)
     gli (1.6.0)
     heroku (2.25.0)
       launchy (>= 0.3.2)
@@ -41,6 +42,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bluecloth
   heroku
   redcarpet
   showoff

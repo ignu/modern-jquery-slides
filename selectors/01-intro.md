@@ -1,4 +1,10 @@
 <!SLIDE>
+<script>
+   $("img").css({"width" : "100%", "height" : "100%"})
+   $.fn.blink = function() {
+   	$(this).fadeOut().fadeIn();
+   }
+</script>
 
 # Len Smith #
 # @ignu #
@@ -13,13 +19,6 @@
 # Why Upgrade? #
 
 <!SLIDE >
-<script>
-   $("img").css({"width" : "100%", "height" : "100%"})
-   $.fn.blink = function() {
-   	$(this).fadeOut().fadeIn();
-   }
-</script>
-
 ![jquery-1-5](children-performance-1-4.jpg)
 
 <!SLIDE>
@@ -362,16 +361,13 @@ don't use underscore if you don't have to
 
 <!SLIDE execute>
 # extra credit: 
-## return false versus preventDefault
-## stopPropagation versus stopImmediatePropagation
+## return false VS preventDefault
+## stopPropagation VS stopImmediatePropagation
 
 [example](http://jsfiddle.net/ignu/HQx2u/1/)
 
 <!SLIDE execute>
 # extra credit: proxy 
-
-	@@@javascript
-		alert(jQuery.fn == jQuery.prototype);
 
 [example](http://jsfiddle.net/ignu/w3WZJ/1/)
 
@@ -394,44 +390,8 @@ don't use underscore if you don't have to
 
 <!SLIDE execute>
 # questions?
+
 <!SLIDE execute>
 # Len Smith
 # @ignu
 # http://iggy.nu
-
-
-<!SLIDE execute>
-thanks
-
-<!SLIDE execute>
-
-pipe
-attr selected:false (removes selected, used to leave it on there)
-getting context
-
-.prop
-
-.attr("selected") // true
-.prop("selected") // true
-
-valHooks
-
-synced animations
-timers only run every 15ms
-
-:focus selector
-
-ComputedValues•attr(name,function(i,v){})•prop(name,function(i,v){})•val(function(i,v){})•css(name,function(i,v){})
-
-.end
-.is()
-.filter()
-$.map()
-$.proxy()
-
-relative css
-
-.css("height", "+=10")
-cssHooks box-shadow
-
-$.fn

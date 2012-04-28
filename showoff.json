@@ -1,0 +1,15 @@
+{
+  "name": "Modern jQuery",
+  "description": "Yeah",
+  "author": "Len Smith",
+  "templates" : {
+      "special" : "simple.tpl"
+  },
+  "pause_msg": "Paused !!!",
+  "sections": [
+    {"section":"selectors"}
+//    {"section":"two"},
+//    {"section":"three"},
+//    {"section":"four"}
+  ]
+}
